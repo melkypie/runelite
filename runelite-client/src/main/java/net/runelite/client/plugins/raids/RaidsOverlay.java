@@ -108,6 +108,8 @@ public class RaidsOverlay extends Overlay
 			.color(color)
 			.build());
 
+		//TEST
+
 		if (config.ccDisplay())
 		{
 			color = Color.RED;
