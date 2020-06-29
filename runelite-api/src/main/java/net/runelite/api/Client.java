@@ -1724,6 +1724,11 @@ public interface Client extends GameEngine
 	 */
 	void drawOriginalMenu(int alpha);
 
+	/**
+	 * Draws a right-click menu using the values in {@link MenuColors}
+	 */
+	void drawCustomMenu(MenuColors menuColors);
+
 	void resetHealthBarCaches();
 
 	/**
